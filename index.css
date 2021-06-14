@@ -1,15 +1,16 @@
 
     header {
-        background-color: #7C5E99;
+        background-color: #333533;
         border-bottom: 10px solid #000;
         padding: 10px 20px;
       }
+
     a {
         display: inline-flex;
         align-items: center;
         color: white;
-        font-size: 20px;
-        font-family: "Fira Code" , Arial, Helvetica, sans-serif;
+        font-size: 23px;
+        font-family: "Ubuntu Mono" , Arial, Helvetica, sans-serif;
         font-weight: 500;
         text-decoration: none;
         margin-right: 30px;
@@ -21,16 +22,22 @@
 
     a:before {
         content: "";
-        background-color: #F25A70;
+        background-color: #007ea7;
         width: 10px;
         height: 10px;
         margin-right: 10px;
+        box-shadow: 1px 1px 0px black;
     }
 
     #button {
                 display: inline-block;
-                background-color: #F25A70;
-                box-shadow: 5px 5px 0px black;
-                padding: 18px 20px;
+                background-color: #007ea7;
+                box-shadow: 5px 5px 2px black;
+                padding: 14px 16px;
                 margin-right: 0px;
+                border-radius: 5px;
+    }
+
+    body{
+        margin: 0px;
     }
