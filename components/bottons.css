@@ -1,0 +1,25 @@
+#btn2 {
+    display: inline-block;
+    font-family: "Ubuntu Mono", cursive;
+    font-size: 20px;
+    background-color: #3a4042;
+    box-shadow: 4px 4px 0px black;
+    padding: 22px 16px;
+    margin-left: 150px;
+    margin-top: 38px;
+    transition: transform 100ms linear;
+
+}
+
+#btn3 {
+    display: inline-block;
+    font-family: "Ubuntu Mono", cursive;
+    font-size: 20px;
+    background-color: #3a4042;
+    box-shadow: 4px 4px 0px black;
+    padding: 22px 30px;
+    margin-left: 80px;
+    margin-top: 38px;
+    transition: transform 100ms linear;
+
+}
