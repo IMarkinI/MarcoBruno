@@ -1,12 +1,11 @@
-var botao = document.getElementById ("button");
+var teste = document.getElementById ("button");
 
-botao.addEventListener("mouseover", function() {
+teste.addEventListener("mouseover", function() {
 
     this.style.backgroundColor = "#1d3557";
 });
 
-botao.addEventListener("mouseout", function() {
+teste.addEventListener("mouseout", function() {
 
     this.style.backgroundColor = "#007ea7";
 });
-

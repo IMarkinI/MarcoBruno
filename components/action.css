@@ -1,0 +1,25 @@
+.action {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    font-size: 23px;
+    font-family: "Ubuntu Mono" , Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    text-align: center; 
+    transition: transform 100ms linear;    
+}
+
+.action:hover {
+    transform: scale(0.90);
+}
+
+.action::before {
+    content: "";
+    background-color: #007ea7;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 0px black;
+}
