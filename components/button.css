@@ -1,4 +1,4 @@
-#button {
+.button {
     display: inline-block;
     background-color: #007ea7;
     font-family: "Ubuntu Mono", cursive;
@@ -15,8 +15,8 @@
     transform: scale(0.90);
 }
 
-
-/* #btn2 {
+/*
+.btn2 {
     display: inline-block;
     font-family: "Ubuntu Mono", cursive;
     font-size: 20px;
@@ -30,7 +30,7 @@
     transition: transform 100ms linear;
 }
 
-#btn3 {
+.btn3 {
     display: inline-block;
     font-family: "Ubuntu Mono", cursive;
     font-size: 20px;
@@ -43,6 +43,4 @@
     margin-top: 38px;
     transition: transform 100ms linear;
 }
-
-
-} */
+*/
